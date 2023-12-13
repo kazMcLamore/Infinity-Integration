@@ -63,7 +63,7 @@
 
 ## Create a task through infinity
 - create the task
-- assign sales person ([[#How to associate a salesperson to an infinity id|ensure they're set up correctly]])
+- assign sales person ([ensure they're set up correctly](#how-to-associate-a-salesperson-to-an-infinity-id))
 - record should show in nextactions table with correct fm username
 
 
@@ -72,7 +72,6 @@
 - from the Event Summary layout
 - set today's date in the global field
 - this will automatically filter out an opportunity records that have expired.
-- on the far right, select the opportunity id 
-	![[CleanShot 2023-12-13 at 14.05.01@2x.png|image]] 
+- on the far right, select the opportunity id ![[CleanShot 2023-12-13 at 14.05.01@2x.png|image]] 
 ## Why associate an opportunity to a CaterEvent?
 - the opportunity record allows comments/activity for this opportunity to show up under the same infinity task. 
