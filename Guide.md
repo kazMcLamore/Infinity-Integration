@@ -6,7 +6,7 @@
 
 ## How to create an opportunity
 - open Integrator Bridge file
-- go to layout "Opportunity - Detail"
+- go to layout User > "Opportunity - Detail"
 - create a new record
 - name your opportunity 
 	- this will show in Infinity
