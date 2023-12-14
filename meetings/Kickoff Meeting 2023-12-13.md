@@ -29,4 +29,4 @@
 
 
 # Things to Cover
-[Guide](guide.md) 
+[Guide](Guide.md) 
