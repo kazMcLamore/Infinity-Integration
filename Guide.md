@@ -22,7 +22,7 @@
 	- if this is not viewable, click the background after selecting a status, salesperson, and folder.
 - you should now see the opportunity show up in Infinity
 - NOTE: opportunities are **ALWAYS** created from FileMaker. If you create a task in infinity, it will not be considered an opportunity.
-- ![](CleanShot%202023-12-14%20at%2012.38.55@2x.png)
+- ![New Opportunity](images/CleanShot%202023-12-14%20at%2012.38.55@2x.png)
 
 ## How to find a person for an opportunity
 - enter your search terms
