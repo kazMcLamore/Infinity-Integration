@@ -1,9 +1,32 @@
-## New Architecture
+# New Architecture
 - there is now an additional file (integrator bridge)
 - you will auto-login to this file
 - this file holds all data for infinity/integrating with infinity
 - File should be visible on list of hosted files
 ![](images/CleanShot%202023-12-14%20at%2012.55.33@2x.png)
+
+# Opportunities
+## What is an Opportunity?
+An opportunity represents an event or party that the customer wants to have catered. 
+This is not currently tracked in the existing caterEvents database and we're adding this information into the Integrator Bridge.
+### Why track opportunities?
+This will make it possible to report on the overall number of opportunities we are receiving each year. This is currently difficult because the same event will be quoted many times. If we do not get the business it is difficult to report on those that we missed because, while we may have n number of quotes in the system, we don't know how many actual events those related to without a single "accepted quote"
+
+```mermaid
+---
+title: Prospect Relationships
+---
+
+erDiagram
+          "Prospect/Person/Customer" ||..o{ Opportunity : "can have many"
+          Opportunity ||..o{ Quotes : "can have many"
+          Opportunity ||..|| "Accepted Quote" : "has only one"
+          Opportunity {
+	          int dollar_value
+	          string date
+	          string client_id
+          }
+```
 
 ## How to create an opportunity
 - open Integrator Bridge file
