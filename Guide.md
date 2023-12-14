@@ -7,10 +7,11 @@
 
 
 # Opportunities
+
 ## What is an Opportunity?
 An opportunity represents an event or party that the customer wants to have catered. 
 This is not currently tracked in the existing caterEvents database and we're adding this information into the Integrator Bridge.
-### Why track opportunities?
+## Why track opportunities?
 1. One prospect may have multiple events they wish to cater over time. We want to keep all of these opportunities (and events) linked to a single Person record in FileMaker to make reporting possible.
 2. This will make it possible to report on the overall number of opportunities we are receiving each year. 
 	- This is currently difficult because the same event will be quoted many times. If we do not get the business it is difficult to report on those that we missed because, while we may have n number of quotes in the system, we don't know how many actual events those related to without a single "accepted quote"
@@ -31,7 +32,7 @@ erDiagram
           }
 ```
 
-### New Opportunity Workflow
+## New Opportunity Workflow
 1. [Create the opportunity record](#create-the-opportunity-record-in-filemaker-and-push-it-to-infinity)
 	1. Track sales activity (e.g. calls, emails, texts) using Infinity web interface or FileMaker nextActions table
 2. Create CaterEvent records to quote the opportunity
@@ -43,7 +44,8 @@ erDiagram
 		- NextActions of type "Appointment" will be created as sub-tasks for your opportunity record
 		- Other types of NextAction records will be created as comments under your opportunity record.
 	- #todo what do we do about generic next actions? currently it's getting board/folder from the opportunity record. maybe make configurable?
-### Create the Opportunity Record in FileMaker and push it to Infinity
+
+## Create the Opportunity Record in FileMaker and push it to Infinity
 - open Integrator Bridge file
 - go to layout User > "Opportunity - Detail"
 - create a new record (1)
@@ -77,13 +79,13 @@ erDiagram
 	- press "add new" button at the bottom of the popover
 	- your record should now be viewable in caterevents, and also associated to the currently open opportunity record.
 	![](images/CleanShot%202023-12-14%20at%2012.22.22@2x.png)
-### Associating an opportunity to a CaterEvent record
+## Associating an opportunity to a CaterEvent record
 - from the Event Summary layout
 - set today's date in the global field
 - this will automatically filter out an opportunity records that have expired.
 - on the far right, select the opportunity id ![[CleanShot 2023-12-13 at 14.05.01@2x.png|image]] 
 
-### Why associate an opportunity to a CaterEvent?
+## Why associate an opportunity to a CaterEvent?
 - the opportunity record allows comments/activity for this opportunity to show up under the same infinity task. 
 
 
