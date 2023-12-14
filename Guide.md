@@ -7,27 +7,37 @@
 ## How to create an opportunity
 - open Integrator Bridge file
 - go to layout User > "Opportunity - Detail"
-- create a new record
-- name your opportunity 
+- create a new record (1)
+- name your opportunity (2) 
 	- this will show in Infinity
-- click the magnifying glass to search for a party
+- click the magnifying glass to search for a party (3)
 	- in the popover search window, enter your search criteria
 	- this should be doing an "or" search where any record that matches any criteria should be returned
 	- searches for names and organization names are fuzzy searches that will return other things that are spelled similarly
 	- searches for names and organization names should also include exact matches.
 	- select a party by clicking on their line
 		- you should see their details show up in the opportunity.
-- select a status, salesperson, and folder.
-- push the upload button to push to infinity
+- select a status, salesperson, and folder.(4-7)
+- push the upload button (8) to push to infinity
 	- if this is not viewable, click the background after selecting a status, salesperson, and folder.
 - you should now see the opportunity show up in Infinity
 - NOTE: opportunities are **ALWAYS** created from FileMaker. If you create a task in infinity, it will not be considered an opportunity.
+- ![](CleanShot%202023-12-14%20at%2012.38.55@2x.png)
 
 ## How to find a person for an opportunity
 - enter your search terms
 - this should do an or search where any matches are included
 - to filter the list of records DOWN enter your search term in the 'filter' field below and then press enter or press the button next to the field. 
 - this should return any records that contain the exact text string in any of the fields.
+- ![](CleanShot%202023-12-14%20at%2012.27.30@2x.png)
+
+## How to create a prospect record for an opportunity
+- if the person you're looking for doesn't exist you can add them to the Propect list 
+	- press the "add new" person button on the Opportunity - Detail layout.
+	- in the popover, enter the details of your person: name, email, phone, etc. 
+	- press "add new" button at the bottom of the popover
+	- your record should now be viewable in caterevents, and also associated to the currently open opportunity record.
+	- ![](CleanShot%202023-12-14%20at%2012.22.22@2x.png)
 ## Update an opportunity from Infinity
 - modify a field value on Infinity website
 	- only some fields are mirred in FM:
