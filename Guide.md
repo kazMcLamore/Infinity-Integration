@@ -3,6 +3,7 @@
 - you will auto-login to this file
 - this file holds all data for infinity/integrating with infinity
 - File should be visible on list of hosted files
+![](images/CleanShot%202023-12-14%20at%2012.55.33@2x.png)
 
 ## How to create an opportunity
 - open Integrator Bridge file
@@ -22,14 +23,14 @@
 	- if this is not viewable, click the background after selecting a status, salesperson, and folder.
 - you should now see the opportunity show up in Infinity
 - NOTE: opportunities are **ALWAYS** created from FileMaker. If you create a task in infinity, it will not be considered an opportunity.
-- ![New Opportunity](images/CleanShot%202023-12-14%20at%2012.38.55@2x.png)
+ ![New Opportunity](images/CleanShot%202023-12-14%20at%2012.38.55@2x.png)
 
 ## How to find a person for an opportunity
 - enter your search terms
 - this should do an or search where any matches are included
 - to filter the list of records DOWN enter your search term in the 'filter' field below and then press enter or press the button next to the field. 
 - this should return any records that contain the exact text string in any of the fields.
-- ![](CleanShot%202023-12-14%20at%2012.27.30@2x.png)
+![](images/CleanShot%202023-12-14%20at%2012.27.30@2x.png)
 
 ## How to create a prospect record for an opportunity
 - if the person you're looking for doesn't exist you can add them to the Propect list 
@@ -37,7 +38,7 @@
 	- in the popover, enter the details of your person: name, email, phone, etc. 
 	- press "add new" button at the bottom of the popover
 	- your record should now be viewable in caterevents, and also associated to the currently open opportunity record.
-	- ![](CleanShot%202023-12-14%20at%2012.22.22@2x.png)
+	![](images/CleanShot%202023-12-14%20at%2012.22.22@2x.png)
 ## Update an opportunity from Infinity
 - modify a field value on Infinity website
 	- only some fields are mirred in FM:
