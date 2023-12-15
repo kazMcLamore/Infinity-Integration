@@ -1,7 +1,8 @@
 ## Definitions
-- __Lead:__ A time a prospect has inquired about an event.
+- __Lead:__ A essentially an inquiry. An instance of a prospect submitting their information or requesting information.
 - __Prospect:__ Someone with an opportunity to hold an event.
 - __Opportunity:__ An instance of a Prospect looking to hold a specific event e.g. Mr. & Mrs. Smith's wedding.
+- __Asana:__ Project management tool we're using for this project. 
 
 # New Architecture
 - there is now an additional file (integrator bridge)
