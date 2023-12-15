@@ -1,3 +1,8 @@
+## Definitions
+- __Lead:__ A time a prospect has inquired about an event.
+- __Prospect:__ Someone with an opportunity to hold an event.
+- __Opportunity:__ An instance of a Prospect looking to hold a specific event e.g. Mr. & Mrs. Smith's wedding.
+
 # New Architecture
 - there is now an additional file (integrator bridge)
 - you will auto-login to this file
@@ -11,11 +16,6 @@
 ## What is an Opportunity?
 An opportunity represents an event or party that the customer wants to have catered. 
 This is not currently tracked in the existing caterEvents database and we're adding this information into the Integrator Bridge.
-
-# Definitions
-__Lead:__ A time a prospect has inquired about an event.
-__Prospect:__ Someone with an opportunity to hold an event
-__Opportunity:__ An instance of a Prospect looking to hold a specific event e.g. Mr. & Mrs. Smith's wedding.
 
 ## Why track opportunities?
 1. One prospect may have multiple events they wish to cater over time. We want to keep all of these opportunities (and events) linked to a single Person record in FileMaker to make reporting possible.
