@@ -1,5 +1,6 @@
-## Definitions
-- __Lead:__ A essentially an inquiry. An instance of a prospect submitting their information or requesting information.
+# Definitions
+Lead
+: A essentially an inquiry. An instance of a prospect submitting their information or requesting information.
 - __Prospect:__ Someone with an opportunity to hold an event.
 - __Opportunity:__ An instance of a Prospect looking to hold a specific event e.g. Mr. & Mrs. Smith's wedding.
 - __Asana:__ Project management tool we're using for this project. 
@@ -9,7 +10,7 @@
 - you will auto-login to this file
 - this file holds all data for infinity/integrating with infinity
 - File should be visible on list of hosted files
-![](images/CleanShot%202023-12-14%20at%2012.55.33@2x.png)
+![image](images/CleanShot%202023-12-14%20at%2012.55.33@2x.png)
 
 
 # Opportunities
@@ -107,7 +108,7 @@ erDiagram
 ## How to create a task for an opportunity through Infinity
 - create a task on infinity that is a sub-item to your opportunity record.
 - use the salesperson field to select which FM user this should go to.
-	- [[#How to associate a salesperson to an infinity id | How to set up a new salesperson]] 
+- [Setting Up a New Salesperson](#Setting%20Up%20a%20New%20Salesperson) 
 - this record should show up in FM as a next action record and associated to the correct person by their people id.
 
 ## Create a generic task through infinity
@@ -115,16 +116,13 @@ erDiagram
 - assign sales person ([ensure they're set up correctly](#how-to-associate-a-salesperson-to-an-infinity-id))
 - record should show in nextactions table with correct fm username
 
-
-
-# Setting Up a New Salesperson
-## How to create a new folder
+# How to create a new folder
 - create folder in infinity
 - go to board map layout
 - find board record
 - pull folders
 
-## How to associate a salesperson to an infinity id
+# Setting Up a New Salesperson
 - add anyone needed to the attribute in Infinity
 	- modify the salesperson label attribute
 	- add any salespeople we need
@@ -135,6 +133,5 @@ erDiagram
 - pull all users in FileMaker
 	- go to the layout
 	- pull all records
-- select a label value for each user that we want to use.
-- also enter their FM user name.
+- enter their FM user name.
 
